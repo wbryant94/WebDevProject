@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <script src="./currencyConversion.js"></script>
+</head>
+
+<body >
+    <fieldset>
+        <legend>Currency Converter</legend>
+          
+          <tr>
+                <td> Amount: </td>
+                <td><input type="number" value="0" name="fromCurrency" id="currencyAmount" 
+                    size="4" > </td>
+            </tr>
+       
+            <br>
+        Convert From:
+        <select name="fromCurrencies" id="fromCurrencies" >
+                <option value="usd">usd</option>
+                <option value="euro">Euro</option>
+                <option value="yuan">Chinese Yuan</option>
+                <option value="rupee">Indian Rupee</option>
+            </select> 
+            <br>
+    
+        Convert To:
+         <select name="currencies" id="toCurrencies" >
+                <option value="usd">U.S Dollar</option>
+                <option value="euro">Euro</option>
+                <option value="yuan">Chinese Yuan</option>
+                <option value="rupee">Indian Rupee</option>
+            </select>
+            <br>
+         
+           
+             <tr>
+                <td> Converted Result: </td>
+                <td><input type="number" value="0" name="convertedCurrency" id ="convertedCurrency" size="4"></td>
+            </tr>
+            
+    
+    
+    <button id="convertButton">Convert</button>
+    <script>
+    function convertCurrency() {
+    //console.log("convertCurrency function triggered")
+    
+        convert();
+        //console.log("converted result updated: "+document.getElementById("convertedCurrency").value)
+    }
+        document.getElementById("convertButton").addEventListener("click", convertCurrency);
+    </script>
+    
+    </fieldset>
+    
+</body>
+
+</html>

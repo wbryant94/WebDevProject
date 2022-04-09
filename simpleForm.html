@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <form action="simplePHP.php" method="get">
+                 <div> 
+                <input name="name" placeholder="Your Name" type="text" required>
+                </div>
+    
+                <div> 
+                <input name="email" placeholder="Your Email" type="email" required>
+                </div>
+                
+                <div> 
+                    <input name="sub" placeholder="Subject" type="text">
+                </div>
+
+                <div> 
+                <label>Your Suggestion/Feedback</label>
+                <textarea name="msg" placeholder="Type your text here..." required></textarea>
+                </div>
+                <div> 
+                <input id="send" name="submit" type="submit" value="Send Feedback">
+                </div>
+    
+            <button type="reset">Reset Form</button>
+            </form>
+            
+    </body>
+</html>

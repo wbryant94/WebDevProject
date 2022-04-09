@@ -1,0 +1,95 @@
+table td + td { border-left:2px solid black; margin: auto 0;}
+
+
+.info {
+    background-color: honeydew;
+    font-family: cursive;
+    font-size: x-large;
+    text-align: center;
+    margin: 25px;
+    padding: 10px;
+}
+
+.info_2 {
+    background-color: greenyellow;
+    font-family: cursive;
+    font-size: medium;
+    text-align: center;
+    margin: 50px;
+    padding: 25px;
+}
+
+ol {
+    margin: auto 0;
+    font-family: fantasy;
+    font-size: x-large;
+    background-color: gold;
+    margin: 25px;
+    padding: 25px;
+}
+
+.Title {
+    text-align: center;
+    background-color: green;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: xx-large;
+    border: solid 3px brown;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  tr:hover {
+    background-color: #D6EEEE;
+    border-bottom: 1px solid #ddd;
+
+  }
+
+h1{
+    margin: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.fishing {
+    background-color: lightblue;
+    text-align: center;
+    color: blue;
+    font-size: large;
+
+}
+
+.hiking {
+    text-align: center;
+    color: grey;
+    font-family: fantasy;
+    border: dashed 3px indigo;
+    margin: 50px;
+    padding: 25px;
+}
+
+.climbing {
+    background-color: coral;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    border: solid gold 3px;
+    margin: 25px;
+    padding: 25px;
+}
+
+.gear {
+    text-align: center;
+    color: crimson;
+    border: solid 3px black;
+    background-color: white;
+    margin: 10px;
+}
+
